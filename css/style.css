@@ -1,0 +1,51 @@
+
+body{
+    background-color: #212121;
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+
+}.spacing{
+    margin-top:20%;
+    margin-bottom:20%;
+}
+.fullHeight{
+ height: 100%;
+}
+.shadow{
+    background-color: #131313;
+    height: 270px;
+    width: 475.5px;
+    margin:auto;
+}
+h5{
+    color:#ffffff;
+    text-transform: uppercase;
+}
+p{
+    color: white;
+}
+.card-body a{
+    text-decoration: underline;
+    color: white;
+}
+.mgTop{
+margin-top: 10%;
+margin-bottom: 2%;
+}
+.stats{
+    background-color: #2F2F2F;
+}
+.gradient{
+    background-image: linear-gradient(#50C9BD, #7990FE);
+    padding-left: 1%;
+    padding-top: 1%;;
+}
+ul{
+    list-style-type: none;
+}
+.upper{
+    text-transform: uppercase;
+}
+#logo{
+    margin:auto;
+}

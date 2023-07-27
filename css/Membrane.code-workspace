@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Membrane"
+		},
+		{
+			"path": "../../../My portfolio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Membrane"
+	}
+}

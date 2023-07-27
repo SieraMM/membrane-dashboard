@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Membrane</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/Dashboard/css/style.css">
+</head>
+
+<body>
+
+    <div class="fullHeight">
+        <div class="row ">
+            <div class="col-0 gradient ">
+                <!-- We are gonna start with the Nav-->
+
+                <!-- this is your logo-->
+
+                <a class="navbar-brand" href="#">
+                    <img src="/Dashboard/images/Logo.png"id="logo" width="30" height="30" alt="">
+                </a>
+                <!-- end-->
+
+                <!-- these are the buttons-->
+                <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active  spacing" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                        role="tab" aria-controls="v-pills-home" aria-selected="true"> <img
+                            src="/Dashboard/images/dashboard.svg" width="45" height="45" alt="Dashboard">
+                    </a>
+                    <a class="nav-link  spacing" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                        role="tab" aria-controls="v-pills-profile" aria-selected="false"><img
+                            src="/Dashboard/images/pie_chart.svg" width="45" height="45" alt="Vaults"></a>
+                    <a class="nav-link  spacing" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                        role="tab" aria-controls="v-pills-messages" aria-selected="false"><img
+                            src="/Dashboard/images/liquidation_pool.svg" width="45" height="45" alt="Liquidation"></a>
+                    <a class="nav-link  spacing" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                        role="tab" aria-controls="v-pills-settings" aria-selected="false"><img
+                            src="/Dashboard/images/staking.svg" width="45" height="45" alt="Staking"></a>
+                    <a class="nav-link  spacing" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                        role="tab" aria-controls="v-pills-settings" aria-selected="false"><img
+                            src="/Dashboard/images/lockdrop.svg" width="45" height="45" alt="Lockdrop"></a>
+                </div>
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">...</div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">
+                        ...</div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">
+                        ...</div>
+                </div>
+            </div>
+
+
+            <div class="col">
+
+                <div class="row mgTop">
+                    <div class="col-4"> Dashboard</div>
+                    <div class="col-4"> <button type="button" class="btn btn-primary upper">Connect wallet</button>
+                    </div>
+                    <div class=" col-4"><button type="button" class="btn btn-primary upper">Connect wallet</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card shadow ">
+                            <div class="card-body">
+                                <h5 class="card-title ">Collateralized Vaults</h5>
+                                <p class="card-text dim">You can borrow CDT against any combination of available
+                                    collateral
+                                    by opening a Cell. Learn more: <a
+                                        href="https://membrane-finance.gitbook.io/membrane-docs-1/protocol/overview">What
+                                        is a Vault?</a>
+                                </p>
+                                <a href="#" class="btn btn-primary">Open Cell</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h5 class="card-title ">Liquidation Pools</h5>
+                                <p class="card-text">You can earn discounted liquidated collateral by depositing CDT
+                                    into the single or omni-asset liquidation pools. Learn more: <a
+                                        href="https://membrane-finance.gitbook.io/membrane-docs-1/protocol/liquidation-mechanism">How
+                                        do liquidations work?</a>
+                                </p>
+                                <a href="#" class="btn btn-primary">Deposit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card shadow ">
+                            <div class="card-body">
+                                <h5 class="card-title"> Staking</h5>
+                                <p class="card-text">Stake MBRN to enable & increase ownership of the protocol.
+                                    Learn more: <a
+                                        href="https://membrane-finance.gitbook.io/membrane-docs-1/protocol/mbrn-tokenomics#value-flows">How
+                                        value flows to MBRN?</a>
+                                </p>
+                                <a href="#" class="btn btn-primary">Stake</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Lockdrop</h5>
+                                <p class="card-text">Deposit OSMO to earn a share of staked MBRN that can be boosted by
+                                    voluntary vesting. Learn more: <a
+                                        href="https://membrane-finance.gitbook.io/membrane-docs-1/protocol/lockdrop-launch">
+                                        How much is up for grabs at launch? </a>
+                                </p>
+                                <a href="#" class="btn btn-primary">Bootstrap</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-3 stats">
+                <span> Statistics</span>
+                <div class="d-flex">
+                    <div class="mbrn d-flex flex-column">
+                        <img src="/Dashboard/images/Frame 836.svg">
+                        <span> MBRN</span>
+                        <a href="https://app.osmosis.zone/?from=OSMO&to=MBRN">$1.21</a>
+                    </div>
+                    <div class="cdt d-flex flex-column">
+                        <img src="/Dashboard/images/CDT.svg">
+                        <span> CDT</span>
+                        <a href="https://app.osmosis.zone/?from=OSMO&to=MBRN">$13.21</a>
+                    </div>
+                </div>
+                <span> Protocol</span>
+                <div class="d-flex">
+                    <ul class="upper">
+                        <li> tvl</li>
+                        <li> vaults</li>
+                        <li> Stability pool tvl</li>
+                        <li> CDT Supply</li>
+                        <li> staked mbrn</li>
+                        <li> circulating mbrn</li>
+                        <li> protocol capital</li>
+                    </ul>
+                    <ul>
+                        <li> 349k ATOM ($201M)</li>
+                        <li> 1,122</li>
+                        <li> 177M (63.3%)</li>
+                        <li> 280M</li>
+                        <li> 46.5M</li>
+                        <li> 263.0%</li>
+                        <li> No </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</body>
