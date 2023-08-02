@@ -47,5 +47,24 @@ ul{
     text-transform: uppercase;
 }
 #logo{
+    margin-left:27%;
+}
+.btnFun{
     margin:auto;
+    align-items: center;
+    border-radius: 2px;
+    width: 85px;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+    text-decoration: none;
+    padding:4px 2px;
+
+}
+    
+#blue{
+    background-color: #64ACDD ;
+}
+#green{
+    background-color: #4FCABB; 
 }
